@@ -34,6 +34,8 @@ public class _001_Get_Request {
                         "workspaces.type", hasItems( "team","personal"),
                         "workspaces[0].name", equalTo("Rest_Assured"),
                         "workspaces.size()", equalTo(3)
+
+
                      );
     }
 
